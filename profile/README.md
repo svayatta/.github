@@ -21,7 +21,7 @@ Charioteer Consulting Ltd.
 
 | Tool | What it does | Status |
 |---|---|---|
-| [agent-custody](https://github.com/svayatta/agent-custody) · [agent-custody.dev](https://agent-custody.dev) | Proof of what your AI agents did: a gateway that checks every tool call against a signed grant and a Cedar policy, issues a signed receipt either way, and logs it in a tamper-evident Merkle log anyone can verify. | Released on npm and PyPI, with a hosted log |
+| [agent-custody](https://github.com/svayatta/agent-custody) | Proof of what your AI agents did: a gateway that checks every tool call against a signed grant and a Cedar policy, issues a signed receipt either way, and logs it in a tamper-evident Merkle log anyone can verify. Website: [agent-custody.dev](https://agent-custody.dev). | Released on npm and PyPI, with a hosted log |
 | [loom](https://github.com/svayatta/loom) | Runs large Mixture-of-Experts models across groups of ordinary machines, sharing verified GGUF weight ranges over gossip. One static Zig binary with an OpenAI-compatible API. | Distributed weight sharing works across real machines; untrusted peers is a design only |
 | tells | Scores whether the other party on a phone, Meet, or Zoom call is an AI, from turn-taking and synthetic-voice evidence. | Early MVP, score not yet calibrated; source opening soon |
 
