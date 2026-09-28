@@ -1,8 +1,8 @@
-# Svayatta Foundry
+# Svayatta Forge
 
 **स्वायत्त** (*svāyatta*): Sanskrit for self-governed, autonomous; one who depends on no other.
 
-Svayatta Foundry builds sovereign AI tools: software you run yourself, inspect in full,
+Svayatta Forge builds sovereign AI tools: software you run yourself, inspect in full,
 and verify without trusting anyone else's servers. Every tool here is open source under
 the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) and is built by
 Charioteer Consulting Ltd.
@@ -17,7 +17,7 @@ Charioteer Consulting Ltd.
 
 ## Tools
 
-Repositories will appear here as they move into the foundry.
+Repositories will appear here as they move into the forge.
 
 ## Contact
 
