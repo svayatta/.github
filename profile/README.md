@@ -7,6 +7,8 @@ and verify without trusting anyone else's servers. Every tool here is open sourc
 the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) and is built by
 Charioteer Consulting Ltd.
 
+**Website:** [svayattaforge.com](https://svayattaforge.com)
+
 ## What sovereign means here
 
 - **You run it.** Self-hosted by default. Hosted options are conveniences, never requirements.
@@ -17,7 +19,11 @@ Charioteer Consulting Ltd.
 
 ## Tools
 
-Repositories will appear here as they move into the forge.
+| Tool | What it does | Status |
+|---|---|---|
+| [agent-custody](https://github.com/svayatta/agent-custody) · [agent-custody.dev](https://agent-custody.dev) | Proof of what your AI agents did: a gateway that checks every tool call against a signed grant and a Cedar policy, issues a signed receipt either way, and logs it in a tamper-evident Merkle log anyone can verify. | Released on npm and PyPI, with a hosted log |
+| [loom](https://github.com/svayatta/loom) | Runs large Mixture-of-Experts models across groups of ordinary machines, sharing verified GGUF weight ranges over gossip. One static Zig binary with an OpenAI-compatible API. | Distributed weight sharing works across real machines; untrusted peers is a design only |
+| tells | Scores whether the other party on a phone, Meet, or Zoom call is an AI, from turn-taking and synthetic-voice evidence. | Early MVP, score not yet calibrated; source opening soon |
 
 ## Contact
 
